@@ -45,3 +45,30 @@ body {
   background: #FA8443;
   border-radius: 8px;
 }
+
+.hero-section {
+  width: 95%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  /* background-color: #fff; */
+}
+
+.hero-header {
+  font-size: 4.3rem;
+}
+
+.hero-text {
+  flex: 1;
+}
+.hero-image {
+  flex: 1;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  justify-self: flex-start;
+}
