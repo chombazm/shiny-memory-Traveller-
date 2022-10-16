@@ -1,3 +1,4 @@
+import { LocationIcon } from "../../assets/icons"
 import { CardProps } from "../../types"
 
 type DestinationsProps = {
@@ -11,7 +12,7 @@ export const Card = (destinantion: DestinationsProps) => {
         <img className='card-image' src={image} alt="card1" />
         <div className='popular-destinantion-card-text'>
           <p className='location-text'>
-            {/* <img className='icons' src={loaction} alt="Location" /> */}
+            <LocationIcon />
             <span>{location}</span>
           </p>
           <h3>

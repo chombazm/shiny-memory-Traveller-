@@ -133,6 +133,7 @@ h1, h2, h3, h4, h5 {
 
 .popular-destinantion-card-text {
   padding: 1rem;
+  padding-top: 0;
   font-size: 1rem;
   font-weight: 200;
   color: #333;
