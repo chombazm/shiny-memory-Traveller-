@@ -58,14 +58,73 @@ export const HomePage = () => {
       Popular Destinations
     </h2>
     <p className='sub-header-text'>
-      Vacations to make your experience enjoyable in Zambia!
+      Vacations to make your experience enjoyable!
     </p>
     <div className='popular-destinantion-cards'>
        {/* add cards here */}
-       {Destinations.map((destination, index) => (
+      {Destinations.map((destination, index) => (
         <Card key={index} destination={destination} />
       ))}
     </div>
+    </section>
+    
+    <section className='why-us-section section-spacer'>
+    <div className='flex-2-cols'>
+      <div className='hero-img-col'>
+          <img src={images.whyus} alt="hero section" className='md-image-hero' />
+      </div>
+
+      <div className='hero-text-col'>
+        <h3 className='text-col-header'>
+          Why Choose Us
+        </h3>
+        <p className='sub-header-text'>
+          Enjoy different experiences in every place you visit and discover new and affordable adventures of course.
+        </p>
+        <div className='sec-options'>
+          
+        <div className='sec-option'>
+            <div className='icons-container'> 
+              <img src={icons.flight} alt="option 1" />
+            </div>
+            <div className='aside-icon'>
+              <h4>Flight Ticket</h4>
+              <p>
+                Vitae donec pellentesque a aliquam et ultricies auctor. 
+              </p>
+            </div>
+          </div>
+
+
+          <div className='sec-option'>
+            <div className='icons-container'> 
+              <img src={icons.hotel} alt="option 1" />
+            </div>
+            <div className='aside-icon'>
+              <h4>Accomodation</h4>
+              <p>
+              Vitae donec pellentesque a aliquam et ultricies auctor. 
+              </p>
+            </div>
+          </div>
+
+          <div className='sec-option'>
+            <div className='icons-container'> 
+              <img src={icons.bags} alt="option 1" />
+            </div>
+            <div className='aside-icon'>
+              <h4>Packaged Tour</h4>
+              <p>
+                Vitae donec pellentesque a aliquam et ultricies auctor. 
+              </p>
+            </div>
+          </div>
+
+          {/* <a href="#!">Another Product</a> */}
+        </div>
+      </div>
+        
+      </div>
     </section>
     </main>
   )
