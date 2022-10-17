@@ -247,9 +247,9 @@ h1, h2, h3, h4, h5 {
       align-self: center;
       margin-top: 2rem;
   }
-  .hero-image {
+  /* .hero-image {
     background-color: red;
-  }
+  } */
   .hero-image img {
     max-width: 200px;
   }
