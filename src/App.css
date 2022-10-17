@@ -247,9 +247,16 @@ h1, h2, h3, h4, h5 {
       align-self: center;
       margin-top: 2rem;
   }
-  .popular-destinantion-cards {
-
+  .hero-image {
+    background-color: red;
   }
-  .popular-destinantion-card {
+  .hero-image img {
+    max-width: 200px;
+  }
+  .popular-destinantion {
+    display: none;
+  }
+  .section-spacer {
+    margin-top: 2rem;
   }
 }
